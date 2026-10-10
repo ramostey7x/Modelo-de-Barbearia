@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black: #111111;
+  --color-brand-graphite: #242424;
+  --color-brand-white: #F4F0E8;
+  --color-brand-gold: #B8955A;
+  --color-brand-gold-hover: #9E7D44;
+  --color-brand-gray: #77736D;
+  --font-sans: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+  background-color: #111111;
+  color: #F4F0E8;
+  overflow-x: hidden;
+}
+
+.font-serif-title {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Subtle focus outline for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid #B8955A;
+  outline-offset: 2px;
+}

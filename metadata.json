@@ -1,0 +1,6 @@
+{
+  "name": "BRAVO BARBER CLUB",
+  "description": "Barbearia masculina premium com proposta visual sofisticada, cortes de cabelo precisos, barba e cuidados com o estilo masculino.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
